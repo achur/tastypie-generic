@@ -77,3 +77,14 @@ _api/resources.py:_
             allowed_methods = ['get', 'put', 'post', 'delete']
             excludes = ['object_id']
             authorization = UserAuthorization('created_by')
+
+
+## Credits and Thanks
+
+A huge thanks to [David Hatch](https://github.com/dhatch) whose
+[fork](https://github.com/dhatch/django-tastypie/tree/generic-relations) inspired
+the GenericForeignKeyField code.
+
+Also to the [django-tastypie](https://github.com/toastdriven/django-tastypie) team for
+continuing to work on an awesome piece of software, and particularly to
+[Josh Bohde](https://github.com/joshbohde) for answering my questions.
