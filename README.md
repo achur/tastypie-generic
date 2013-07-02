@@ -5,6 +5,8 @@ Generic Foreign Keys and other basic tools for Django-Tastypie
 
 ---
 
+# NOTE: tastypie-generic has been integrated into toastdriven/django-tastypie, so this repo is DEPRECATED.
+
 # Installation
 
 Run `pip install tastypie-generic` and add `tastypie_generic` to your `INSTALLED_APPS`.
